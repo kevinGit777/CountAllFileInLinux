@@ -1,0 +1,22 @@
+pa02: filecnt filedisp
+
+filecnt: filecnt.o version.o
+	g++ -o filecnt filecnt.o version.o
+
+filecnt.o: filecnt.cpp
+	g++ -c filecnt.cpp 
+
+filedisp: filedisp.o version.o
+	g++ -c filedisp.cpp -o filedisp
+
+filedisp.o: filedisp.cpp
+	g++ -c filedisp.cpp 
+
+version.o: version.cpp version.h
+	g++ -c version.cpp version.h
+
+cleanall:
+	rm -f filedisp
+	rm -f filecnt
+
+	

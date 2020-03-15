@@ -1,0 +1,13 @@
+Script started on 2020-02-25 23:38:59-0600
+]0;kw@kw-VirtualBox: ~[01;32mkw@kw-VirtualBox[00m:[01;34m~[00m$ ./filecnt /usr/share | filedisp -d
+filedisp: command not found
+]0;kw@kw-VirtualBox: ~[01;32mkw@kw-VirtualBox[00m:[01;34m~[00m$ ./filecnt /usr/share | filedisp -d[C[1@.[1@/
+The total number of directories in directory/usr/share is: 16300
+]0;kw@kw-VirtualBox: ~[01;32mkw@kw-VirtualBox[00m:[01;34m~[00m$ ./filecnt /usr/share | ./filedisp -d[Kf
+The total number of files in directory/usr/share is: 198484
+]0;kw@kw-VirtualBox: ~[01;32mkw@kw-VirtualBox[00m:[01;34m~[00m$ ./filecnt /usr/share | ./filedisp -f[Kb
+The total number of bytes in directory/usr/share is: -1231611159
+]0;kw@kw-VirtualBox: ~[01;32mkw@kw-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-02-25 23:39:43-0600
